@@ -1,49 +1,5 @@
 INSERT INTO `heroku_864d8a7fa6a6bdf`.`department` (`DEPT_ID`, `DEPT_NAME`) VALUES ('1', 'Marketing');
 
-INSERT INTO `heroku_864d8a7fa6a6bdf`. `COVID` (`EMPLOYEE_ID`,`SHORTH_BREATH`,`DRY_COUGH`,`TEMP`,`FATIGUE`,`PREGNANT`,`PERCENTAGE`,`ZONE`)
-
-VALUES ('123','Y','N','Y','N','Y','',''),
-
- ('456','N','Y','N','Y','N','',''),
-
- ('789','Y','Y','Y','Y','Y','',''),
-
- ('213','N','N','N','N','N','',''),
-
-('908','Y','Y','Y','N','N','',''),
-
-('231','Y','Y','Y','N','N','',''),
-
-('756','Y','Y','Y','N','N','',''),
-
-('767','Y','Y','Y','N','N','',''),
-
-('209','Y','Y','Y','N','N','',''),
-
-('898','Y','Y','Y','N','N','',''),
-
-('494','Y','Y','Y','N','N','',''),
-
-('383','Y','Y','Y','N','N','',''),
-
-('921','Y','Y','Y','N','N','',''),
-
-('435','Y','Y','Y','N','N','',''),
-
-('876','Y','Y','Y','N','N','',''),
-
-
-('145','Y','Y','Y','N','N','',''),
-
-('987','Y','Y','Y','N','N','',''),
-
-('900','Y','Y','Y','N','N','',''),
-
-('343','Y','Y','Y','N','N','',''),
-
-
-('356','Y','Y','Y','N','N','','');
-
 /EMPLOYEE DATA/
 
 INSERT INTO `heroku_864d8a7fa6a6bdf`.`EMPLOYEE` (`EMPLOYEE_ID`, `FIRST_NAME`, `LAST_NAME`, `GENDER`, `PASSWORD`, `DEPT_ID`, `PUBLIC_EXPOSURE`, `AGE`) 
@@ -67,3 +23,27 @@ VALUES (1, 'Avanindra', 'Patil', 'Male', 'ava@123', '2', 'N', '19'  'Marketing')
 (18, 'Ali', 'Shaikh', 'Male', 'ghat23@!', '1', 'N', '33'  'SALES'),
 (19, 'Salman', 'Khan', 'Male', 'wannabeactor101', '2', 'N', '32'  'Marketing'),
 (20, 'Gopal', 'Gangurde', 'Male', 'bestme$2', '2', 'N', '43'  'Marketing'),
+
+/COVID DATA/
+INSERT INTO `heroku_864d8a7fa6a6bdf`. `COVID` (`EMPLOYEE_ID`,`SHORT_BREATH`,`DRY_COUGH`,`TEMP`,`FATIGUE`,`PREGNANT`)
+
+VALUES ('123','Y','N','Y','N','Y'),
+('456','N','Y','N','Y','N');
+('789','Y','Y','Y','Y','Y'),
+('213','N','N','N','N','N'),
+('908','Y','Y','Y','N','N'),
+('231','Y','Y','Y','N','N'),
+('756','Y','Y','Y','N','N'),
+('767','Y','Y','Y','N','N'),
+('209','Y','Y','Y','N','N'),
+('898','Y','Y','Y','N','N'),
+('494','Y','Y','Y','N','N'),
+('383','Y','Y','Y','N','N'),
+('921','Y','Y','Y','N','N' ),
+('435','Y','Y','Y','N','N'),
+('876','Y','Y','Y','N','N'),
+('145','Y','Y','Y','N','N'),
+('987','Y','Y','Y','N','N'),
+('900','Y','Y','Y','N','N'),
+('343','Y','Y','Y','N','N'),
+('356','Y','Y','Y','N','N');
