@@ -67,3 +67,10 @@ VALUES (1, 'Avanindra', 'Patil', 'Male', 'ava@123', '2', 'N', '19'  'Marketing')
 (18, 'Ali', 'Shaikh', 'Male', 'ghat23@!', '1', 'N', '33'  'SALES'),
 (19, 'Salman', 'Khan', 'Male', 'wannabeactor101', '2', 'N', '32'  'Marketing'),
 (20, 'Gopal', 'Gangurde', 'Male', 'bestme$2', '2', 'N', '43'  'Marketing'),
+
+CREATE TABLE `heroku_864d8a7fa6a6bdf`.`suspects` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `EMPLOYEE_ID` INT NOT NULL,
+  `SUSPECT_ID` INT NOT NULL,
+  PRIMARY KEY (`id`)
+  );
